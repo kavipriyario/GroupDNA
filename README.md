@@ -1,38 +1,49 @@
-# GroupDNA – WhatsApp Chat Analyzer
+GroupDNA - WhatsApp Chat Analyzer
+About the Project
 
-## About the Project
+GroupDNA is a Python-based WhatsApp Chat Analyzer that analyzes group chat data and identifies useful messaging and activity patterns of group members.
 
-GroupDNA is a Python project that analyzes WhatsApp group chat data and identifies different activity and messaging patterns of group members.
+Dataset
 
-## Dataset
+The project uses the hostel_bois.txt WhatsApp chat dataset.
 
-The project uses the `hostel_bois.txt` dataset.
+Participants: 6
+Duration: 60 days
+Format: WhatsApp exported chat text file
+Features
+Chat parsing
+Group overview
+Total messages
+Messages per person
+Busiest day
+Busiest hour
+Member activity analysis
+Basic chat statistics
+Technologies Used
+Python
+Google Colab
+Pandas
+Matplotlib
+GitHub
+Project Files
+File	Description
+GroupDNA.ipynb	Main analysis notebook
+hostel_bois.txt	WhatsApp chat dataset
+README.md	Project documentation
+How to Run
+Open the GroupDNA.ipynb notebook in Google Colab.
+Upload hostel_bois.txt into the Colab Files section.
+Run the notebook cells from top to bottom.
+View the generated analysis and results.
+Output
 
-- Number of participants: 6
-- Duration: 60 days
+The project generates insights about:
 
-## Features
+Overall group activity
+Individual member contributions
+Most active days
+Most active hours
+Messaging patterns
+Conclusion
 
-- Chat parsing
-- Group overview
-- Messages per person
-- Busiest day
-- Busiest hour
-
-## Technologies Used
-
-- Python
-- Google Colab
-- Pandas
-- Matplotlib
-
-## Project Notebook
-
-The complete analysis is available in the `Kavipriya_GroupDNA.ipynb` notebook.
-
-## Future Enhancements
-
-- Word frequency analysis
-- Emoji analysis
-- Media statistics
-- User activity visualizations
+GroupDNA provides a simple way to understand WhatsApp group communication patterns using Python and data analysis.
